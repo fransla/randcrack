@@ -9,14 +9,14 @@ There are two versions, `randcrack_st` (single threaded) and `randcrack_mt` whic
 ## method
 The process to crack a LCG generator is documented [here](https://jazzy.id.au/2010/09/20/cracking_random_number_generators_part_1.html). What this tool adds is the ability to crack nextInt(n), as well as cases where the subsequent calls to nextInt(n) has a decrementing `n` as used for the [Fisher-Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle). Missing values can also be handled.
 
-##writeup
+## writeup
 See the PDF file for writeup and explantation.
 
-##installation
+## installation
 `go get https://github/com/fransla/randcrack` should do the trick. Alternatively, binaries are located in the `bin` folder.
 
-##targets and demos
+## targets and demos
 Vulnerable Java samples are included in the `goats` folder, and (mostly) match the [asciinema](https://asciinema.org/) demos in the `demos` folder.
 
-##usage
+## usage
 Full usage instructions will be put here, until then, see the demo section
