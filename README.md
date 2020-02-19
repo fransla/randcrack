@@ -13,7 +13,7 @@ The process to crack a LCG generator is documented [here](https://jazzy.id.au/20
 See the PDF file for writeup and explantation.
 
 ## installation
-`go get github.com/fransla/randcrack` should do the trick. Alternatively, binaries are located in the `bin` folder.
+`go get -d github.com/fransla/randcrack` should download the files. `go build randcrack_st.go` or `go build randcrack_mt.go` as required. Alternatively, binaries are located in the `bin` folder.
 
 ## targets and demos
 Vulnerable Java samples are included in the `goats` folder, and (mostly) match the [asciinema](https://asciinema.org/) demos in the `demos` folder.
